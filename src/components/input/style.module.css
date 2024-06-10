@@ -1,0 +1,13 @@
+.input {
+	height: 48px;
+	padding: 0 15px;
+	border: 0;
+	background: #f9f9f9;
+}
+.input:focus {
+	outline: none;
+}
+.input::placeholder {
+	font-family: inherit;
+	opacity: .6;
+}

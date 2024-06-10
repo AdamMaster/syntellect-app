@@ -1,0 +1,60 @@
+.wrapper {
+	position: relative;
+	width: 350px;
+}
+.input {
+	width: 100%;
+}
+.list {
+	overflow-y: auto;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	height: 250px;
+	background: #fff;
+	box-shadow: 0 0 15px rgba(0,0,0,0.08);
+	opacity: 0;
+	visibility: hidden;
+	transition: .2s;
+}
+.active {
+	opacity: 1;
+	visibility: visible;
+}
+.listItem {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+	padding: 5px 10px;
+	transition: .2s;
+}
+.listItem:hover {
+	background: #f9f9f9;
+}
+img {
+	width: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bbbbbb;
+}
