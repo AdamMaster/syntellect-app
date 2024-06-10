@@ -1,6 +1,7 @@
 .wrapper {
 	position: relative;
 	width: 350px;
+	margin-bottom: 10px;
 }
 .input {
 	width: 100%;
@@ -8,6 +9,7 @@
 .list {
 	overflow-y: auto;
 	position: absolute;
+	z-index: 100;
 	top: 100%;
 	left: 0;
 	width: 100%;

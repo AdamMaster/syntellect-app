@@ -52,6 +52,7 @@ function App() {
         rightButtons={rightButtons2}
       />
       <ControlSearch itemsLength={10}/>
+      <ControlSearch itemsLength={3}/>
     </div>
   )
 }
